@@ -2,12 +2,12 @@
    /* display: grid;
    grid-template-columns:repeat(1fr minmax( 300px, 400px)); */
   }
-
+/* 
   .filter-blue {
     opacity: 0 !important;
-  }
+  } */
   body {
-     background-color: black;
+     background-color: black !important;
     color: white !important;
     overflow-x: hidden;
   }
