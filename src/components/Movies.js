@@ -2,7 +2,7 @@ import React,{ useState, useEffect } from 'react'
 import Movielist from '../components/Movielist'
 import Header from '../components/Header'
 import FavouriteAdd from './FavouriteAdd'
-import AddFav from '../components/AddFav'
+ 
 
 
 
