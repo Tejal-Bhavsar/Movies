@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Tejal-Bhavsar/Movies/static/css/main.836c8de0.chunk.css",
+    "main.js": "/Tejal-Bhavsar/Movies/static/js/main.38aa497e.chunk.js",
+    "main.js.map": "/Tejal-Bhavsar/Movies/static/js/main.38aa497e.chunk.js.map",
+    "runtime-main.js": "/Tejal-Bhavsar/Movies/static/js/runtime-main.3cd2ae3a.js",
+    "runtime-main.js.map": "/Tejal-Bhavsar/Movies/static/js/runtime-main.3cd2ae3a.js.map",
+    "static/css/2.ae9f1eb3.chunk.css": "/Tejal-Bhavsar/Movies/static/css/2.ae9f1eb3.chunk.css",
+    "static/js/2.d04521c9.chunk.js": "/Tejal-Bhavsar/Movies/static/js/2.d04521c9.chunk.js",
+    "static/js/2.d04521c9.chunk.js.map": "/Tejal-Bhavsar/Movies/static/js/2.d04521c9.chunk.js.map",
+    "static/js/3.216a2bbf.chunk.js": "/Tejal-Bhavsar/Movies/static/js/3.216a2bbf.chunk.js",
+    "static/js/3.216a2bbf.chunk.js.map": "/Tejal-Bhavsar/Movies/static/js/3.216a2bbf.chunk.js.map",
+    "index.html": "/Tejal-Bhavsar/Movies/index.html",
+    "static/css/2.ae9f1eb3.chunk.css.map": "/Tejal-Bhavsar/Movies/static/css/2.ae9f1eb3.chunk.css.map",
+    "static/css/main.836c8de0.chunk.css.map": "/Tejal-Bhavsar/Movies/static/css/main.836c8de0.chunk.css.map",
+    "static/js/2.d04521c9.chunk.js.LICENSE.txt": "/Tejal-Bhavsar/Movies/static/js/2.d04521c9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3cd2ae3a.js",
+    "static/css/2.ae9f1eb3.chunk.css",
+    "static/js/2.d04521c9.chunk.js",
+    "static/css/main.836c8de0.chunk.css",
+    "static/js/main.38aa497e.chunk.js"
+  ]
+}
