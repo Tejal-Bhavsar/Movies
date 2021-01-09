@@ -3,8 +3,11 @@
    grid-template-columns:repeat(1fr minmax( 300px, 400px)); */
   }
 
+  .filter-blue {
+    opacity: 0 !important;
+  }
   body {
-    background-color: black !important;
+     background-color: black;
     color: white !important;
     overflow-x: hidden;
   }
@@ -28,9 +31,7 @@
      transition:  ease-in transform 0.3s;
      
    }
-    img {
-      border-radius: 10px;
-    }
+    
    .moviecard:hover {
      cursor: pointer;
      transform: scale(1.1);
@@ -50,7 +51,10 @@
      padding: 20px;
      text-align: center;
    }
-
+ 
+   img {
+    border-radius: 10px;
+  }
    .searchbox{
      width: 16rem;
     border-radius: 10px;
