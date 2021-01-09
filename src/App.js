@@ -6,7 +6,9 @@ import FavouriteAdd from './components/FavouriteAdd';
 function App() {
   return (
     <>
+    <div className="container-fluid">
       <Movies />
+    </div>
       
     </>
   );

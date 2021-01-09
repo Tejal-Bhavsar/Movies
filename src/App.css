@@ -52,6 +52,7 @@
    }
 
    .searchbox{
+     width: 16rem;
     border-radius: 10px;
     border: none;
     outline: none;

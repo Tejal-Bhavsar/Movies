@@ -15,13 +15,23 @@ const [ favmovie, setFavourite ] = useState([])
        getMovies()
    },[searchval])
 
+   useEffect (() => {
+       const movieFav = JSON.parse(localStorage.getItem("react-app-fav-movie"));
+       setFavourite(movieFav);
+   },[])
+
+
+   const saveToLocalStorage = (items) => {
+       localStorage.setItem('react-app-fav-movie', JSON.stringify(items))
+   }
    const getfavmovies = (movie) =>{
        
         const newFavlist = ([...favmovie,movie])
         // const newFavlist = (movies) => {
         //     if(movies.id != )
         // }
-       setFavourite(newFavlist)
+       setFavourite(newFavlist);
+       saveToLocalStorage(newFavlist)
 
    }
 
@@ -38,6 +48,7 @@ const [ favmovie, setFavourite ] = useState([])
     const removefavMovie = (movie) => {
         const newfavMovie = favmovie.filter((favourite) => favourite.imdbID !== movie.imdbID)
         setFavourite(newfavMovie)
+        saveToLocalStorage(newfavMovie)
     }
     return (
         <>

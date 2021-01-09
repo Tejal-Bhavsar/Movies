@@ -5,10 +5,10 @@ export default function Header({  setSearchval,searchval}) {
         <div>
             <div className="container">
                 <div className="row m-3 align-items-center  mb-4">
-                    <div className="col">
+                    <div className="col-sm-12 col-md-12 col-lg-6">
                          <h2>Movies</h2>
                     </div>
-                    <div className="col">
+                    <div className="col-sm-12 col-md-12 col-lg-6">
                         <form>
                             <input type="text"
                             value={searchval}
