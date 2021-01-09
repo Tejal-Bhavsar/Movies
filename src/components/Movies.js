@@ -9,6 +9,7 @@ import FavouriteAdd from './FavouriteAdd'
 export default function Movies() {
 const [ movies, setMovies ] = useState([])
 const [ searchval ,setSearchval ] = useState()
+ // eslint-disable-next-line 
 const [ favmovie, setFavourite ] = useState([])
  
    useEffect (() => {
