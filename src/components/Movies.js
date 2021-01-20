@@ -31,6 +31,7 @@ const [ favmovie, setFavourite ] = useState([])
         // const newFavlist = (movies) => {
         //     if(movies.id != )
         // }
+        console.log(favmovie,"favmovies")
        setFavourite(newFavlist);
        saveToLocalStorage(newFavlist)
 
@@ -72,10 +73,16 @@ const [ favmovie, setFavourite ] = useState([])
                     
                 
                 <div className="row">
-                   {favmovie.map((fav,index) => 
-                       <FavouriteAdd fav={fav} 
-                       removefavMovie={removefavMovie}/>
-                   )}
+                   {favmovie ? 
+                   favmovie.map((fav,index) => (
+                        
+                    fav ? 
+                    <FavouriteAdd fav={fav} 
+                    removefavMovie={removefavMovie}/> :
+                    "no fav"
+                  
+                   )
+                   ) : "loading" }
                   
                 </div>
                

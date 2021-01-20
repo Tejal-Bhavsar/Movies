@@ -4,7 +4,7 @@ import RemoveFav from './RemoveFav'
 export default function FavouriteAdd({fav,removefavMovie}) {
     return (
         <>   
-
+            {console.log(fav,"fav")}
                 
               <div className="moviecard d-flex 
                 justify-content-start m-3">
